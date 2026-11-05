@@ -1,19 +1,20 @@
-*{
-    margin: 0px;
+*{ 
+  margin: 0px;
     padding: 0px;
-    
+    box-sizing: border-box;
 }
 body,html{
     width: 100%;
     height: 100%;
     background-color: #f9f6ee;
-    margin-bottom: 2000px;
+    margin-top: 20px;
 }
-#Recipe{
-  text-align: center;
+#recipe-heading{
   font-size: 30px;
   font-style: italic;
-  margin-top: 20px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #introduction{
   padding: 25px;
@@ -53,7 +54,10 @@ img{
   line-height: 24px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
+}
+#step-list,#types{
+  gap: 35px;
 }
 #ingredients,#step-by-step{
   padding-top: 60px;
@@ -64,9 +68,8 @@ img{
 strong{
   color: rgb(36, 36, 36);
 }
-#diff-type-div{
+#diff-type-pasta{
   background-color: rgb(255, 249, 231);
-
   padding-bottom: 40px;
 }
 #review-form{
@@ -125,9 +128,8 @@ input{
   background-color: rgb(255, 203, 139);
 }
 img:hover{
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.369);
+  box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.105);
   transition-duration: 0.3s;
-  border: 4px solid rgba(255, 255, 255, 0.434);
   cursor: pointer;
 }
 #stepsofmaking{
@@ -138,4 +140,44 @@ img:hover{
 #stepsofmaking2{
   background-color: antiquewhite;
   padding-bottom: 35px;
+}
+.header-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position:fixed;
+  background-color: rgba(255, 255, 255, 0.968);
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.322);
+}
+nav{
+  display: flex;
+  margin-right: 50px;
+}
+.nav-link{
+  color: black;
+  text-decoration: none;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 1px;
+  font-size: 18px;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+.nav-link:hover{
+ 
+  transition-duration: 0.15s;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border: 1px solid rgba(84, 84, 84, 0.092);
+  
+}
+.example-image{
+  height: 80px;
+  width: 150px;
+  object-fit: cover;
+  border: none;
 }
