@@ -103,10 +103,9 @@ input{
 }
 #review{
   height: 30vh;
+  max-height: 300px;
 }
-main{
-  padding-bottom: 40px;
-}
+
 #review-description{
   text-align: center;
   padding-top: 20px;
@@ -115,6 +114,7 @@ main{
   margin-bottom: 25px;
   margin-left: -20px;
   padding-right: 40vw;
+ 
 }
 #last-section{
   position:relative;
@@ -122,11 +122,20 @@ main{
   left: 0px;
   right: 0px;
   height: 200px;
-  background-color: rgb(227, 162, 83);
+  background-color: rgb(255, 203, 139);
 }
 img:hover{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.369);
   transition-duration: 0.3s;
   border: 4px solid rgba(255, 255, 255, 0.434);
   cursor: pointer;
+}
+#stepsofmaking{
+  background-color: rgb(223, 201, 160);
+ 
+  padding-bottom: 55px;
+}
+#stepsofmaking2{
+  background-color: antiquewhite;
+  padding-bottom: 35px;
 }
