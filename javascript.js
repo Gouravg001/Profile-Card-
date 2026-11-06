@@ -1,9 +1,9 @@
 alert("Hacked");
 let firstNm = prompt("Enter Your First Name");
 let lastNm = prompt("Enter Your Last Name");
-alert("hi "+ a + c);
+alert("hi "+ firstNm + lastNm);
 let age = prompt("enter your age");
-if (b>=18) {
+if (age>=18) {
     alert("you can vote");
 } else {
     alert("you cannot vote");
