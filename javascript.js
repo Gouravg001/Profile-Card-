@@ -8,8 +8,8 @@ if (b>=18) {
 } else {
     alert("you cannot vote");
 }
-let state = prompt ("Lets Play if you're ready type READY");
-if (state == "READY") {
+let state = prompt ("Lets Play if you're ready type 'Ready'");
+if (state.toLowerCase() == "ready") {
         alert("lets play: number guess game");
         let num = 25;
       
