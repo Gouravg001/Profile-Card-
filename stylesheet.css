@@ -156,6 +156,7 @@ flex-wrap: wrap;
 }
 nav{
   display: flex;
+flex-wrap: wrap;
   margin-right: 50px;
 }
 .nav-link{
