@@ -1,4 +1,4 @@
-alert("Hacked");
+alert("Hacked haha");
 let firstNm = prompt("Enter Your First Name");
 let lastNm = prompt("Enter Your Last Name");
 alert("hi "+ firstNm + lastNm);
