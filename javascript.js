@@ -1,8 +1,8 @@
 alert("Hacked");
-let a = prompt("Enter Your First Name");
-let c = prompt("Enter Your Last Name");
+let firstNm = prompt("Enter Your First Name");
+let lastNm = prompt("Enter Your Last Name");
 alert("hi "+ a + c);
-let b = prompt("enter your age");
+let age = prompt("enter your age");
 if (b>=18) {
     alert("you can vote");
 } else {
