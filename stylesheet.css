@@ -193,7 +193,7 @@ flex-wrap: wrap;
   width: 50%;
   color:rgb(36, 36, 36)
 }
-@media (max-width: 700px){
+@media (max-width: 750px){
   nav{
     display: none;
   }
