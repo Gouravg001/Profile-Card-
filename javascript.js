@@ -16,7 +16,7 @@ if (state == "READY") {
         let choosenNo = prompt("enter the lucky number between 20 to 30");
        if (choosenNo == num){
            alert("You Won");
-           return;
+           break;
             
         }
         else{
